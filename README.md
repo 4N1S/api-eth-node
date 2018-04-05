@@ -30,9 +30,10 @@ PORT=8080 npm start
 
 **Examples**
 Request:GET
+
     /api/createWallet
 
-**Response**
+***Response***
 
 ```javasctipt
 {
@@ -49,9 +50,10 @@ Request:GET
 
 **Examples**
 Request:GET
-    /api/getBalance/:address
 
-**Response**
+    /api/getBalance/{address eth}
+
+***Response***
 
 ```javasctipt
 {
@@ -66,15 +68,17 @@ Request:GET
 ### transaction
 
 **Examples**
-Request:
+Request:POST
+
     /api/transaction/
+
     param:(required object JSON)
     privatkey:privateKey of the source ETH address
     from:destination is the ETH destination address
     amount:amount the number of ETH to be send
 
 
-**Response**
+***Response***
 
 ```javasctipt
 {

@@ -17,7 +17,7 @@ Getting Started
 ```sh
 # clone it
 git clone git@github.com:4N1S/api-eth-node.git
-cd express-es6-rest-api
+cd api-eth-node
 
 # Install dependencies
 npm install
